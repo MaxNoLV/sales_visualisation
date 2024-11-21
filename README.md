@@ -1,1 +1,1 @@
-## Retail Sales data visualisation
+## Sales data visualisation
