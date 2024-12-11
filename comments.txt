@@ -1,0 +1,4 @@
+unit_price is 0 for 1810 records
+shipped_quantity is 0 for 1810 records
+
+51 negative values in 'shipped_quantity' 
