@@ -1,4 +1,28 @@
+
+
 unit_price is 0 for 1810 records
 shipped_quantity is 0 for 1810 records
 
 51 negative values in 'shipped_quantity' 
+
+Need to transform 'invoice_date' and 'order_date' into datetime
+data type.
+
+I have 5 rows where 'shipped_quantity' is >0 and 'unit_price' and 'sales_amount'
+are 0. It is a mistake. We shipped product with 0 price! 
+
+I have 51 rows where 'shipped_quantity' and 'sales_amount' have negative
+values. These are RETURNS!
+
+I have 1815 rows with 'sales_amount' is 0. It's also a mistake.
+
+I have 2146 rows where 'customer_department' is 0. It's amistake or we have a
+department 0?
+
+I have 31 rows with 'item_department' is 0. It's also a mistake.
+
+I have 569 rows with 'vendor_number' is 0 and at the same 
+time I have 569 rows with 'vendor_name' is '?'. It's a mistake.
+
+I have 106 rows where 'invoice_number' is with different format (letter 'A' or
+'Y' added to the invoice number).
